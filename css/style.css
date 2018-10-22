@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'pixel';
+    src: url('../font/pixel.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pixelSmall';
+    src: url('../font/pixelSmall.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+    margin: 20px auto;
+}
+
+.main {
+    width: 500px;
+    height: 600px;
+    background: red;
+    border-radius: 10px 0 0 10px;
+}
+
+.interface {
+    width: 180px;
+    height: 600px;
+    background: green;
+    border-radius: 0 10px 10px 0;
+}
+
+.racer {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    width: 20px;
+    height: 30px;
+    background: #000;
+}
